@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap'); */
+
+/* 
+    Syntax for CSS
+
+    Selector {
+        property: value;
+        property: value;
+    }
+*/
+
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, p, a {
+    font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #ff7e5f;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-image: url(/images/bg.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.intro {
+    background-color: beige;
+}
+
+#landing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    gap: 1rem;
+}
+
+#landing h1 {
+    font-size: 5rem;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #ff7e5f, red);
+    background-clip: text;
+}
+
+#landing p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    opacity: .8;
+}
+
+#landing a {
+    text-decoration: none;
+    color: azure;
+    font-size: 1.1rem;
+    background-color: #ff7e5f;
+    padding: 5px 40px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 2.2px solid #ff7e5f;
+}
+
+#landing a:hover {
+    color: #ff7e5f;
+    background: transparent;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer a {
+    font-size: 2rem;
+    color: azure;
+}
+
+footer a:hover {
+    color: #ff7e5f;
+}
